@@ -15,7 +15,7 @@
 package proto
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto/bufutil"
 )
 
 func clientAddMembershipListenerCalculateSize(localOnly bool) int {

@@ -17,7 +17,7 @@ package internal
 import (
 	"sync"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto"
 )
 
 type vectorClock struct {

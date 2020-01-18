@@ -30,15 +30,15 @@ import (
 
 	"sync"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/config"
-	"github.com/hazelcast/hazelcast-go-client/config/property"
-	"github.com/hazelcast/hazelcast-go-client/internal/util/murmur"
-	"github.com/hazelcast/hazelcast-go-client/rc"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization/spi"
-	"github.com/hazelcast/hazelcast-go-client/test/nearcache"
-	"github.com/hazelcast/hazelcast-go-client/test/testutil"
+	"github.com/ahmetmircik/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client/config"
+	"github.com/ahmetmircik/hazelcast-go-client/config/property"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/util/murmur"
+	"github.com/ahmetmircik/hazelcast-go-client/rc"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization/spi"
+	"github.com/ahmetmircik/hazelcast-go-client/test/nearcache"
+	"github.com/ahmetmircik/hazelcast-go-client/test/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

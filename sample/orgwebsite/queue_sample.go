@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client"
 )
 
 func queueSampleRun() {

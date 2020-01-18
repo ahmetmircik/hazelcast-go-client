@@ -17,10 +17,10 @@ package internal
 import (
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/config/property"
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/core/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
+	"github.com/ahmetmircik/hazelcast-go-client/config/property"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client/core/logger"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto"
 )
 
 type heartBeatService struct {

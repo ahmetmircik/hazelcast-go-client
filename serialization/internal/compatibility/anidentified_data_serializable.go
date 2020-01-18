@@ -14,7 +14,7 @@
 
 package compatibility
 
-import "github.com/hazelcast/hazelcast-go-client/serialization"
+import "github.com/ahmetmircik/hazelcast-go-client/serialization"
 
 type anIdentifiedDataSerializable struct {
 	bool bool

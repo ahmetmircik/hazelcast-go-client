@@ -92,8 +92,8 @@
 
 # Introduction
 
-[![GoDoc](https://godoc.org/github.com/hazelcast/hazelcast-go-client?status.svg)](https://godoc.org/github.com/hazelcast/hazelcast-go-client)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hazelcast/hazelcast-go-client)](https://goreportcard.com/report/github.com/hazelcast/hazelcast-go-client)
+[![GoDoc](https://godoc.org/github.com/ahmetmircik/hazelcast-go-client?status.svg)](https://godoc.org/github.com/ahmetmircik/hazelcast-go-client)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ahmetmircik/hazelcast-go-client)](https://goreportcard.com/report/github.com/ahmetmircik/hazelcast-go-client)
 <br />
 
 This document explains Go client for Hazelcast which uses Hazelcast's Open Client Protocol 1.6. This client works with Hazelcast 3.6 and higher.
@@ -192,10 +192,10 @@ See the [Hazelcast IMDG Reference Manual](http://docs.hazelcast.org/docs/latest/
 Following command installs Hazelcast Go client:
 
 ```
-go get github.com/hazelcast/hazelcast-go-client
+go get github.com/ahmetmircik/hazelcast-go-client
 ```
 
-See the Go client's [tutorial](https://github.com/hazelcast/hazelcast-go-client/tree/master/sample/helloworld) for more information on installing and setting up the client.
+See the Go client's [tutorial](https://github.com/ahmetmircik/hazelcast-go-client/tree/master/sample/helloworld) for more information on installing and setting up the client.
 
 ## 1.4. Basic Configuration
 
@@ -288,7 +288,7 @@ You need to create a `Config` object and adjust its properties. Then you can pas
 ```go
 package main
 
-import "github.com/hazelcast/hazelcast-go-client"
+import "github.com/ahmetmircik/hazelcast-go-client"
 
 func main() {
 
@@ -362,7 +362,7 @@ os.Setenv(property.InvocationTimeoutSeconds.Name(), "2")
 If you set a property both programmatically and via an environment variable, the programmatically
 set value will be used.
 
-See the [complete list](https://github.com/hazelcast/hazelcast-go-client/blob/master/config/property/client_properties.go) of client system properties, along with their descriptions, which can be used to configure your Hazelcast Go client.
+See the [complete list](https://github.com/ahmetmircik/hazelcast-go-client/blob/master/config/property/client_properties.go) of client system properties, along with their descriptions, which can be used to configure your Hazelcast Go client.
 
 
 
@@ -378,7 +378,7 @@ The following example first creates a programmatic configuration object. Then, i
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client"
 )
 
 func main() {
@@ -424,7 +424,7 @@ Let's manipulate a distributed map on a cluster using the client.
 ```go
 import (
 	"fmt"
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client"
 )
 
 func main() {
@@ -474,7 +474,7 @@ You see this example puts all IT personnel into a cluster-wide `personnelMap` an
 ```go
 import (
 	"fmt"
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client"
 )
 
 func main() {
@@ -525,9 +525,9 @@ That is because our map lives in the cluster and no matter which client we use, 
 
 ## 1.6. Code Samples
 
-See the Hazelcast Go [code samples](https://github.com/hazelcast/hazelcast-go-client/blob/master/sample) for more examples.
+See the Hazelcast Go [code samples](https://github.com/ahmetmircik/hazelcast-go-client/blob/master/sample) for more examples.
 
-You can also see the Hazelcast Go [API Documentation](https://godoc.org/github.com/hazelcast/hazelcast-go-client).
+You can also see the Hazelcast Go [API Documentation](https://godoc.org/github.com/ahmetmircik/hazelcast-go-client).
 
 # 2. Features
 
@@ -578,7 +578,7 @@ config.NetworkConfig().AddAddress("some-ip-address:port")
 hazelcast.NewClientWithConfig(config)
 ```
 
-See the `Config` class documentation at [Hazelcast Go client API Docs](https://godoc.org/github.com/hazelcast/hazelcast-go-client/config#Config) for details.
+See the `Config` class documentation at [Hazelcast Go client API Docs](https://godoc.org/github.com/ahmetmircik/hazelcast-go-client/config#Config) for details.
 
 # 4. Serialization
 
@@ -2131,7 +2131,7 @@ The Default Logger's format is as follows:
 
 An example default log message is as follows:
 ```
-2018/11/30 17:48:52 github.com/hazelcast/hazelcast-go-client/internal.(*lifecycleService).fireLifecycleEvent
+2018/11/30 17:48:52 github.com/ahmetmircik/hazelcast-go-client/internal.(*lifecycleService).fireLifecycleEvent
 INFO:  hz.client_1 [dev] [0.4] New State :  STARTED
 ```
 
@@ -2146,7 +2146,7 @@ config.LoggerConfig().SetLogger(l)
 The same log message will now be as follows:
 
 ```
-myPrefix 2018/11/30 17:55:40 github.com/hazelcast/hazelcast-go-client/internal.(*lifecycleService).fireLifecycleEvent
+myPrefix 2018/11/30 17:55:40 github.com/ahmetmircik/hazelcast-go-client/internal.(*lifecycleService).fireLifecycleEvent
 INFO:  hz.client_1 [dev] [0.4] New State :  CONNECTED
 ```
 
@@ -2305,7 +2305,7 @@ you can follow the steps in this section.
 
 Follow the below steps to build and install Hazelcast Go client from its source:
 
-- Clone the GitHub repository [https://github.com/hazelcast/hazelcast-go-client.git](https://github.com/hazelcast/hazelcast-go-client.git).
+- Clone the GitHub repository [https://github.com/ahmetmircik/hazelcast-go-client.git](https://github.com/ahmetmircik/hazelcast-go-client.git).
 - Run `sh build.sh`.
 
 If you are planning to contribute, please run the style checker, as shown below, and fix the reported issues before sending a pull request.
@@ -2328,7 +2328,7 @@ Test script automatically downloads `hazelcast-remote-controller` and Hazelcast 
 
 You can use the following channels for your questions and development/usage issues:
 
-* [This repository](https://github.com/hazelcast/hazelcast-go-client) by opening an issue.
+* [This repository](https://github.com/ahmetmircik/hazelcast-go-client) by opening an issue.
 * Our Google Groups directory: https://groups.google.com/forum/#!forum/hazelcast
 * Stack Overflow: https://stackoverflow.com/questions/tagged/hazelcast
 
@@ -2338,7 +2338,7 @@ Besides your development contributions as explained in the [Development and Test
 
 # 11. License
 
-[Apache 2 License](https://github.com/hazelcast/hazelcast-go-client/blob/master/LICENSE).
+[Apache 2 License](https://github.com/ahmetmircik/hazelcast-go-client/blob/master/LICENSE).
 
 # 12. Copyright
 

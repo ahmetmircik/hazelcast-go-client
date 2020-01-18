@@ -18,10 +18,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/core/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/util/murmur"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client/core/logger"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/util/murmur"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
 )
 
 const partitionUpdateInterval = 10 * time.Second

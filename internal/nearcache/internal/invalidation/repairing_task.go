@@ -25,11 +25,11 @@ import (
 
 	"sync/atomic"
 
-	"github.com/hazelcast/hazelcast-go-client/config/property"
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/internal/clientspi"
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache"
-	"github.com/hazelcast/hazelcast-go-client/serialization/spi"
+	"github.com/ahmetmircik/hazelcast-go-client/config/property"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/clientspi"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization/spi"
 )
 
 const asyncResultWaitTimeout = time.Duration(1 * time.Second)

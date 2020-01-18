@@ -14,7 +14,7 @@
 
 package clientspi
 
-import "github.com/hazelcast/hazelcast-go-client/serialization"
+import "github.com/ahmetmircik/hazelcast-go-client/serialization"
 
 type PartitionService interface {
 	GetPartitionID(keyData serialization.Data) int32

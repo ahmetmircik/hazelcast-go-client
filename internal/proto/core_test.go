@@ -17,7 +17,7 @@ package proto
 import (
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/serialization/spi"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization/spi"
 )
 
 func TestMember_Equal(t *testing.T) {

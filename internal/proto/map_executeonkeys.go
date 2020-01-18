@@ -15,9 +15,9 @@
 package proto
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto/bufutil"
 )
 
 func mapExecuteOnKeysCalculateSize(name string, entryProcessor serialization.Data, keys []serialization.Data) int {

@@ -15,9 +15,9 @@
 package invalidation
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/clientspi"
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/clientspi"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
 )
 
 type DefaultStaleReadDetector struct {

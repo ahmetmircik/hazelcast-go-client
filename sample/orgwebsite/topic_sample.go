@@ -17,8 +17,8 @@ package orgwebsite
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
 )
 
 type topicMessageListener struct {

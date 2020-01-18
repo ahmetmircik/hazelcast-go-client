@@ -21,7 +21,7 @@ import (
 
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/config"
+	"github.com/ahmetmircik/hazelcast-go-client/config"
 	"github.com/stretchr/testify/assert"
 )
 

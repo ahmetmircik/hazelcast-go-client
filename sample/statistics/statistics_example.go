@@ -17,8 +17,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/config/property"
+	"github.com/ahmetmircik/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client/config/property"
 )
 
 func main() {

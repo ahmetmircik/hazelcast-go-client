@@ -22,8 +22,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto"
 )
 
 type pnCounterProxy struct {

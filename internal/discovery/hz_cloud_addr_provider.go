@@ -17,10 +17,10 @@ package discovery
 import (
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/core/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/util/iputil"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client/core/logger"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/util/iputil"
 )
 
 // HzCloudAddrProvider provides initial addresses for hazelcast.cloud

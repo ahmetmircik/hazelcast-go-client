@@ -17,7 +17,7 @@ package nearcache
 import (
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/eviction"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/eviction"
 )
 
 var TimeNotSet = time.Now()

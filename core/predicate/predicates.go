@@ -16,7 +16,7 @@
 package predicate
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/predicate"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/predicate"
 )
 
 // SQL returns a SQLPredicate with the given sql.

@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache"
 )
 
 type NearCacheRecord struct {

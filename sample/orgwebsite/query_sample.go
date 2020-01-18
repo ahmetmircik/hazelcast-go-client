@@ -17,10 +17,10 @@ package orgwebsite
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/core/predicate"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client/core/predicate"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
 )
 
 const (

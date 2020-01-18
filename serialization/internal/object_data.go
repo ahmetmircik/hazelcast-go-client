@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization/internal/bufferutil"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization/internal/bufferutil"
 )
 
 type ObjectDataOutput struct {

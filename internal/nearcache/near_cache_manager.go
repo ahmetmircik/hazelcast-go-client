@@ -14,7 +14,7 @@
 
 package nearcache
 
-import "github.com/hazelcast/hazelcast-go-client/config"
+import "github.com/ahmetmircik/hazelcast-go-client/config"
 
 type Manager interface {
 	NearCache(name string) (NearCache, bool)

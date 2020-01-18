@@ -15,10 +15,10 @@
 package internal
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization/classdef"
-	internalClassDef "github.com/hazelcast/hazelcast-go-client/serialization/internal/classdef"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization/classdef"
+	internalClassDef "github.com/ahmetmircik/hazelcast-go-client/serialization/internal/classdef"
 )
 
 type PortableContext struct {

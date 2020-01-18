@@ -15,9 +15,9 @@
 package reliabletopic
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/internal/util/timeutil"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/util/timeutil"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
 )
 
 type Message struct {

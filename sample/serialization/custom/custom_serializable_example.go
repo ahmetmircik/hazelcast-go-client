@@ -19,8 +19,8 @@ import (
 	"log"
 	"reflect"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
 )
 
 const (

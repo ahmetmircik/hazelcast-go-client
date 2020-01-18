@@ -22,13 +22,13 @@ import (
 
 	"sort"
 
-	"github.com/hazelcast/hazelcast-go-client/config"
-	"github.com/hazelcast/hazelcast-go-client/config/property"
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache"
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache/internal/record"
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache/internal/record/comparator"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization/spi"
+	"github.com/ahmetmircik/hazelcast-go-client/config"
+	"github.com/ahmetmircik/hazelcast-go-client/config/property"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache/internal/record"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache/internal/record/comparator"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization/spi"
 )
 
 const evictionPercentage = 20

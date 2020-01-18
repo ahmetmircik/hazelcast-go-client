@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache/internal/record"
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache/internal/record/comparator"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache/internal/record"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache/internal/record/comparator"
 	"github.com/stretchr/testify/assert"
 )
 

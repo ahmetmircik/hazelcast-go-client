@@ -4,7 +4,7 @@
 * [Success Criteria](#success-criteria)
 
 # SoakTest Test Description
-The test is being performed based on "Test based on Integration Tests without Teardown" section at [Release Process](https://hazelcast.atlassian.net/wiki/spaces/EN/pages/4030856/Release+Process) page. See [SoakTest](https://github.com/hazelcast/hazelcast-go-client/tree/master/sample/soak/map_soak.go) 
+The test is being performed based on "Test based on Integration Tests without Teardown" section at [Release Process](https://hazelcast.atlassian.net/wiki/spaces/EN/pages/4030856/Release+Process) page. See [SoakTest](https://github.com/ahmetmircik/hazelcast-go-client/tree/master/sample/soak/map_soak.go) 
 
 The test setup at Hazelcast lab environment is:
 

@@ -58,16 +58,16 @@ code from Github.
 From the `go` directory, run this command
 
 ```
-go get github.com/hazelcast/hazelcast-go-client
+go get github.com/ahmetmircik/hazelcast-go-client
 ```
 
 or this with the `-v` flag for verbose output
 
 ```
-go get -v github.com/hazelcast/hazelcast-go-client
+go get -v github.com/ahmetmircik/hazelcast-go-client
 ```
 
-This will pull down the Hazelcast client for Go from Github, from [here](https://github.com/hazelcast/hazelcast-go-client.git), and
+This will pull down the Hazelcast client for Go from Github, from [here](https://github.com/ahmetmircik/hazelcast-go-client.git), and
 set up the necessary Go directory structory.
 
 #### Verification
@@ -82,7 +82,7 @@ You should see at least these folders
 ├── go/src/
 ├── go/src/github.com
 ├── go/src/github.com/hazelcast
-├── go/src/github.com/hazelcast/hazelcast-go-client
+├── go/src/github.com/ahmetmircik/hazelcast-go-client
 ```
 
 The `pkg` folder holds output packages.
@@ -318,7 +318,7 @@ though they could be run concurrently.
 
 #### `one.go`
 
-From the command line, in the directory with the `one.go` program (`$GOPATH/src/github.com/hazelcast/hazelcast-go-client/samples/hello-world/one`)
+From the command line, in the directory with the `one.go` program (`$GOPATH/src/github.com/ahmetmircik/hazelcast-go-client/samples/hello-world/one`)
 run this command
 
 ```

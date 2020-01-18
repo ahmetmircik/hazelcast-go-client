@@ -15,13 +15,13 @@
 package nearcachespi
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/config/property"
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/internal/clientspi"
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache"
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache/internal"
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache/internal/invalidation"
-	"github.com/hazelcast/hazelcast-go-client/serialization/spi"
+	"github.com/ahmetmircik/hazelcast-go-client/config/property"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/clientspi"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache/internal"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache/internal/invalidation"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization/spi"
 )
 
 func NewDefaultNearCacheManager(service spi.SerializationService,

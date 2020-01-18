@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set up environment
-export CLIENT_IMPORT_PATH="github.com/hazelcast/hazelcast-go-client"
+export CLIENT_IMPORT_PATH="github.com/ahmetmircik/hazelcast-go-client"
 export PACKAGE_LIST=$(go list $CLIENT_IMPORT_PATH/... | grep -vE ".*/tests|.*/compatibility|.*/rc|.*/samples" | sed -e 'H;${x;s/\n/,/g;s/^,//;p;};d')
 echo $PACKAGE_LIST
 

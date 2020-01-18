@@ -20,16 +20,16 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/core/predicate"
-	prd "github.com/hazelcast/hazelcast-go-client/internal/predicate"
+	"github.com/ahmetmircik/hazelcast-go-client/core/predicate"
+	prd "github.com/ahmetmircik/hazelcast-go-client/internal/predicate"
 
 	"encoding/json"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/internal/aggregation"
-	"github.com/hazelcast/hazelcast-go-client/internal/projection"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization/spi"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/aggregation"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/projection"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization/spi"
 	"github.com/stretchr/testify/assert"
 )
 

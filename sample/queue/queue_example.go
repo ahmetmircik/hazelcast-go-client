@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client"
 )
 
 func main() {

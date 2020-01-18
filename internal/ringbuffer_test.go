@@ -17,10 +17,10 @@ package internal_test
 import (
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/internal"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization/spi"
-	"github.com/hazelcast/hazelcast-go-client/test/testutil"
+	"github.com/ahmetmircik/hazelcast-go-client/internal"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization/spi"
+	"github.com/ahmetmircik/hazelcast-go-client/test/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

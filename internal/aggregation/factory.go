@@ -14,7 +14,7 @@
 
 package aggregation
 
-import "github.com/hazelcast/hazelcast-go-client/serialization"
+import "github.com/ahmetmircik/hazelcast-go-client/serialization"
 
 const FactoryID = -41
 

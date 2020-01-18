@@ -19,17 +19,17 @@ import (
 
 	"log"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/config"
-	"github.com/hazelcast/hazelcast-go-client/config/property"
-	"github.com/hazelcast/hazelcast-go-client/rc"
-	"github.com/hazelcast/hazelcast-go-client/test/nearcache"
-	"github.com/hazelcast/hazelcast-go-client/test/testutil"
+	"github.com/ahmetmircik/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client/config"
+	"github.com/ahmetmircik/hazelcast-go-client/config/property"
+	"github.com/ahmetmircik/hazelcast-go-client/rc"
+	"github.com/ahmetmircik/hazelcast-go-client/test/nearcache"
+	"github.com/ahmetmircik/hazelcast-go-client/test/testutil"
 
 	"errors"
 
-	internal2 "github.com/hazelcast/hazelcast-go-client/internal"
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache/internal"
+	internal2 "github.com/ahmetmircik/hazelcast-go-client/internal"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache/internal"
 	"github.com/stretchr/testify/assert"
 )
 

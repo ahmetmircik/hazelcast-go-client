@@ -23,13 +23,13 @@ import (
 
 	"strconv"
 
-	"github.com/hazelcast/hazelcast-go-client/config"
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
-	"github.com/hazelcast/hazelcast-go-client/internal/reliabletopic"
-	"github.com/hazelcast/hazelcast-go-client/internal/util/iputil"
-	"github.com/hazelcast/hazelcast-go-client/serialization/spi"
+	"github.com/ahmetmircik/hazelcast-go-client/config"
+	"github.com/ahmetmircik/hazelcast-go-client/core"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/reliabletopic"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/util/iputil"
+	"github.com/ahmetmircik/hazelcast-go-client/serialization/spi"
 )
 
 const (

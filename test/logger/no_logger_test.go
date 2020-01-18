@@ -18,9 +18,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/core/logger"
-	"github.com/hazelcast/hazelcast-go-client/test/testutil"
+	"github.com/ahmetmircik/hazelcast-go-client"
+	"github.com/ahmetmircik/hazelcast-go-client/core/logger"
+	"github.com/ahmetmircik/hazelcast-go-client/test/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

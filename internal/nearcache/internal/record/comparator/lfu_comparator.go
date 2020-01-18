@@ -15,7 +15,7 @@
 package comparator
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/nearcache"
+	"github.com/ahmetmircik/hazelcast-go-client/internal/nearcache"
 )
 
 type LFUComparator struct {
